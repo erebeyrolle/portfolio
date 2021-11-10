@@ -1,0 +1,282 @@
+header {
+    height: 48vh;
+    width: 100vw;
+    background-image: url('../img/bg_header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entry{
+    width: 100vw;
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.header_headings {
+    margin: 1.5rem;
+}
+
+.div_inner_top {
+    height: 7vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.75;
+}
+
+@keyframes top_red_eye {
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.div_header_top {
+    background-color: red;
+    background-image: linear-gradient(to right, rgba( 0, 0, 0, 0.9) 25%, rgba( 0, 0, 0, 0.1) 50%, rgba( 0, 0, 0, 0.9) 75%);
+    height: 100%;
+    width: 20%;
+    animation: top_red_eye 8s linear 0s infinite alternate;
+}
+
+@keyframes bottom_green_eye {
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+.div_inner_bottom {
+    height: 7vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.div_header_bottom {
+    background-color: green;
+    background-image: linear-gradient(to left, rgba( 0, 0, 0, 0.9) 25%, rgba( 0, 0, 0, 0.1) 50%, rgba( 0, 0, 0, 0.9) 75%);
+    height: 100%;
+    width: 20%;
+    animation: bottom_green_eye 8s linear 0s infinite alternate-reverse;
+}
+
+.firstUpper {
+    color: gold;
+}
+
+.secondUpper {
+    color: silver;
+}
+
+.thirdUpper {
+    color: #CD7F32;
+}
+
+.heading0 {
+    display: block;
+    /*justify-content: space-between;*/
+    background-color: white;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    /*opacity: 0.75;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.home {
+    height: 100vh;
+    width: 100vw;
+    background: center url('../img/blue_modern_computer_processor.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sect {
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect a:link {
+    display: block;
+    text-decoration: none;
+}
+
+.sect_bg {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1.5rem;
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0vw 17vw
+    }
+    50% {
+        background-position: 30vw 17vw
+    }
+    100% {
+        background-position: 0vw 17vw
+    }
+}
+
+.overlay:hover {
+    height: 30vh;
+    width: 30vw;
+    border-radius: 1.5rem;
+    background: linear-gradient(-45deg, #201A30, #74A5F2, #34C78A, #0F402C);
+    animation: Gradient 8s linear alternate infinite;
+    animation-delay: 0.25s;
+}
+
+.building {
+    background: url('../img/building_progress.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#professionalResume{
+    background: url('../img/maillage_lumineux.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.elements {
+    height: 100vh;
+    width: 100vw;
+}
+
+.elements header{
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.elements header h1 {
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.elements img {
+    height: 90vh;
+    width: 100vw;
+    /* background-image: url('../img/bg_elements.jpg');
+    display: block; */
+}
+
+.elements footer {
+    height: 5vh;
+    width: 100vw;
+    margin: 0;
+    background-color:#123A32;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The flip card container - set the width and height to whatever you want. 
+We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    /* background-color: transparent; */
+    
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1.5rem;
+    width: 30vw;
+    height: 30vh;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* img{
+    width: 300px;
+    height: 300px;
+} */
+
+  /* This container is needed to position the front and back side */
+.flip-card-inner {
+    
+    position: relative;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front h1{
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+  /* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    backface-visibility: hidden;
+}
+
+ /* Style the front side (fallback if image is missing) */
+/* .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  } */
+
+  /* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/* Footer style */
+footer{
+    height: 25vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
