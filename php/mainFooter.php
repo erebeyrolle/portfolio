@@ -1,0 +1,1 @@
+<footer class="text-sm-center">Copyright &copy;<?php echo date('Y'); ?>. ERRE - TEC. All Rights Reserved.</footer>

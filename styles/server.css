@@ -1,7 +1,4 @@
-/* body{
-    overflow: hidden;
-} */
-
+/* Main Header style */
 header {
     height: 48vh;
     width: 100vw;
@@ -277,7 +274,7 @@ We have added the border property to demonstrate that the flip itself goes out o
     transform: rotateY(180deg);
 }
 
-/* Footer style */
+/* Main Footer style */
 footer{
     height: 25vh;
     width: 100vw;

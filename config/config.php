@@ -45,7 +45,7 @@ define('H_BC_HEADING11', ''); // Constant of ... back card header
 
 // Constants definition : Home back cards text (H_BC_TEXT(X))
 define('H_BC_TEXT0', ''); // Constant of ... back card text
-define('H_BC_TEXT1', '- Les postes occupés<br/>- Les missions remplies'); // Constant of ... back card text 
+define('H_BC_TEXT1', '- Les postes occupés<br/>- Les missions pour chaque poste'); // Constant of ... back card text 
 define('H_BC_TEXT2', '- Certifications de formation<br/>- Etudes supérieures<br/>- Etudes secondaires<br/>- Attestations diverses'); // Constant of ... back card text 
 define('H_BC_TEXT3', '- Les sites web<br/>- Les applications web<br/>- Les projets IoT<br/>- Les projets I3D'); // Constant of ... back card text 
 define('H_BC_TEXT4', '- Les modules de cours<br/>-Les projets réalisés '); // Constant of ... back card text 
@@ -179,3 +179,6 @@ développement de features spécifiques pour des clients de la boutique et inter
 <br/>
 <br/>- Helpdesk, aide aux bénéficiaires de nos clients ayant des difficultés pour se connecter à la plateforme.'); // Modal Content Text of Professional Position 14
 define('MC_TEXT14', ''); // Modal Content Text of Professional Position 15
+
+// Title for all modals
+define('MC_TITLE_ALL', 'Les missions du poste');
