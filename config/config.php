@@ -98,14 +98,14 @@ define('PR_FC_TEXT2', '<br/>Technicien Maintenance & Automatisme'); // Constant 
 define('PR_FC_TEXT3', '<br/>Technicien Maintenance'); // Constant of Professional Resume text 4
 define('PR_FC_TEXT4', '<br/>Technicien Automaticien d’atelier & Maintenance clientèle'); // Constant of Professional Resume text 5
 define('PR_FC_TEXT5', '<br/>Technicien Maintenance et Automatisme'); // Constant of Professional Resume text 6
-define('PR_FC_TEXT6', 'Responsable Maintenance Industrielle'); // Constant of Professional Resume text 7 
+define('PR_FC_TEXT6', '<br/>Responsable Maintenance Industrielle'); // Constant of Professional Resume text 7 
 define('PR_FC_TEXT7', '<br/>Responsable Montage / Mécanicien Monteur'); // Constant of Professional Resume text 8
 define('PR_FC_TEXT8', '<br/>Gestionnaire CVC'); // Constant of Professional Resume text 9
 define('PR_FC_TEXT9', '<br/>Gestionnaire CVC-SE'); // Constant of Professional Resume text 10
 define('PR_FC_TEXT10', '<br/>Responsable Technique'); // Constant of Professional Resume text 11
 define('PR_FC_TEXT11', '<br/>Responsable d\'Exploitation en Génie Climatique (CVC)'); // Constant of Professional Resume text 12
-define('PR_FC_TEXT12', 'Développeur d\'Applications Web et Mobile<br/>Stage de fin de formation'); // Constant of Professional Resume text 13
-define('PR_FC_TEXT13', '<br/>Développeur Full Stack<br/>Contrat de professionnalisation en alternance'); // Constant of Professional Resume text 14
+define('PR_FC_TEXT12', '<br/>Développeur d\'Applications Web et Mobile<br/>Stage de fin de formation'); // Constant of Professional Resume text 13
+define('PR_FC_TEXT13', '<br/>Chef de Projets Informatiques - Développeur Full Stack<br/>Contrat de professionnalisation en alternance'); // Constant of Professional Resume text 14
 define('PR_FC_TEXT14', ''); // Constant of Professional Resume text 15
 
 // Constants definition : Modals' Content text (MC_TEXT(X))
@@ -176,6 +176,7 @@ define('MC_TEXT13', '- Mise en avant auprès de la Direction, de la nécessité 
 <br/>
 <br/>- Correction de bugs majeurs sur l\'application e-commerce de l\'entreprise, réalisée en POO et écrite en PHP natif,
 développement de features spécifiques pour des clients de la boutique et internes, amélioration de certaines fonctionnalités (HTML/CSS/JS/PHP/MySQL/jQuery/Bootstrap) par rétro ingénierie.
+<br/>- Automatisation de tâches d\'intégration de données en base, création de notification par mail via des évènements CRON.
 <br/>
 <br/>- Helpdesk, aide aux bénéficiaires de nos clients ayant des difficultés pour se connecter à la plateforme.'); // Modal Content Text of Professional Position 14
 define('MC_TEXT14', ''); // Modal Content Text of Professional Position 15
