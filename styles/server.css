@@ -104,7 +104,7 @@ header h1 {
 .home {
     height: 100vh;
     width: 100vw;
-    background: center url('../img/blue_modern_computer_processor.jpg');
+    background: center url('../img/blue_modern_computer_processor.webp');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -162,13 +162,13 @@ header h1 {
 }
 
 .building {
-    background: url('../img/building_progress.jpg');
+    background: url('../img/building_progress.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #professionalResume{
-    background: url('../img/maillage_lumineux.jpg');
+    background: url('../img/maillage_lumineux.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -192,7 +192,7 @@ header h1 {
 .elements img {
     height: 90vh;
     width: 100vw;
-    /* background-image: url('../img/bg_elements.jpg');
+    /* background-image: url('../img/bg_elements.webp');
     display: block; */
 }
 

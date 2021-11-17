@@ -161,7 +161,7 @@ require_once('config/loaderServer.php');
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING1"))); ?></h1>
             </header>
-            <!-- <img src="img/maillage_lumineux.jpg" class="img-fluid" alt=""> -->
+            <!-- <img src="img/maillage_lumineux.webp" class="img-fluid" alt=""> -->
             <div class="row justify-content-around my-5">
 
                 <div class="card" style="width: 18rem;">
@@ -320,7 +320,7 @@ require_once('config/loaderServer.php');
             </header>
             <div>
                 <h1 class="text-center display-1 font-weight-bold">BUILDING IN PROGRESS</h1>
-                <!-- <img src="img/building_progress.jpg" class="img-fluid" alt=""> -->
+                <!-- <img src="img/building_progress.webp" class="img-fluid" alt=""> -->
 
                 <footer>
                     <span>Photo by <a href="https://unsplash.com/@fozzie?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Leo Fosdal</a> on <a href="https://unsplash.com/s/photos/construction?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
@@ -333,7 +333,7 @@ require_once('config/loaderServer.php');
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING3"))); ?></h1>
             </header>
             <h1 class="text-center display-1 font-weight-bold">BUILDING IN PROGRESS</h1>
-            <!-- <img src="img/building_progress.jpg" class="img-fluid" alt=""> -->
+            <!-- <img src="img/building_progress.webp" class="img-fluid" alt=""> -->
             <a class="btn btn-dark btn-lg active" role="button" href="http://parcoursprofessionnel.chez-alice.fr/oldParcours/" target="_blank" alt="Lien Ancien Parcours Professionnel">Parcours Pro</a>
             <a class="btn btn-dark btn-lg active" href="http://natetsafiat500.chez-alice.fr/" target="_blank" alt="Lien Site Fiat500">Fiat 500</a>
 
@@ -347,7 +347,7 @@ require_once('config/loaderServer.php');
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING4"))); ?></h1>
             </header>
-            <img src="img/bg_elements.jpg" class="img-fluid" alt="">
+            <img src="img/bg_elements.webp" class="img-fluid" alt="">
             <footer>
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
@@ -357,7 +357,7 @@ require_once('config/loaderServer.php');
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING5"))); ?></h1>
             </header>
-            <img src="img/bg_elements.jpg" class="img-fluid" alt="">
+            <img src="img/bg_elements.webp" class="img-fluid" alt="">
             <footer>
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
@@ -367,7 +367,7 @@ require_once('config/loaderServer.php');
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING6"))); ?></h1>
             </header>
-            <img src="img/bg_elements.jpg" class="img-fluid" alt="">
+            <img src="img/bg_elements.webp" class="img-fluid" alt="">
             <footer>
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
