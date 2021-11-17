@@ -180,7 +180,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING12"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT12"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('12')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter12">VOIR</button>
+                        <button type="button" onclick="getModalText('12')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -190,7 +190,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING11"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT11"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('11')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter11">VOIR</button>
+                        <button type="button" onclick="getModalText('11')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
 
                 </div>
@@ -200,7 +200,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING10"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT10"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('10')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter10">VOIR</button>
+                        <button type="button" onclick="getModalText('10')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
             </div>
@@ -212,7 +212,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING9"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT9"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('9')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter9">VOIR</button>
+                        <button type="button" onclick="getModalText('9')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -222,7 +222,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING8"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT8"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('8')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter8">VOIR</button>
+                        <button type="button" onclick="getModalText('8')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -232,7 +232,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING7"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT7"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('7')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter7">VOIR</button>
+                        <button type="button" onclick="getModalText('7')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -242,7 +242,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING6"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT6"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('6')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter6">VOIR</button>
+                        <button type="button" onclick="getModalText('6')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -252,7 +252,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING5"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT5"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('5')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter5">VOIR</button>
+                        <button type="button" onclick="getModalText('5')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
             </div>
@@ -265,7 +265,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING4"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT4"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('4')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter4">VOIR</button>
+                        <button type="button" onclick="getModalText('4')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -275,7 +275,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING3"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT3"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('3')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter3">VOIR</button>
+                        <button type="button" onclick="getModalText('3')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -285,7 +285,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING2"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT2"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('2')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter2">VOIR</button>
+                        <button type="button" onclick="getModalText('2')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
@@ -295,7 +295,7 @@ require_once('config/loaderServer.php');
                         <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING1"); ?></h6>
                         <p class="card-text text-center"><?= constant("PR_FC_TEXT1"); ?></p>
                         <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('1')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter1">VOIR</button>
+                        <button type="button" onclick="getModalText('1')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
                     </div>
                 </div>
 
