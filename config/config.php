@@ -104,8 +104,8 @@ define('PR_FC_TEXT8', '<br/>Gestionnaire CVC'); // Constant of Professional Resu
 define('PR_FC_TEXT9', '<br/>Gestionnaire CVC-SE'); // Constant of Professional Resume text 10
 define('PR_FC_TEXT10', '<br/>Responsable Technique'); // Constant of Professional Resume text 11
 define('PR_FC_TEXT11', '<br/>Responsable d\'Exploitation en Génie Climatique (CVC)'); // Constant of Professional Resume text 12
-define('PR_FC_TEXT12', '<br/>Développeur d\'Applications Web et Mobile<br/>Stage de fin de formation'); // Constant of Professional Resume text 13
-define('PR_FC_TEXT13', '<br/>Chef de Projets Informatiques - Développeur Full Stack<br/>Contrat de professionnalisation en alternance'); // Constant of Professional Resume text 14
+define('PR_FC_TEXT12', '<br/>Développeur d\'Applications Web et Mobile<!-- <br/>Stage de fin de formation -->'); // Constant of Professional Resume text 13
+define('PR_FC_TEXT13', '<br/>Chef de Projets Informatiques - Développeur Full Stack<!-- <br/>Contrat de professionnalisation en alternance -->'); // Constant of Professional Resume text 14
 define('PR_FC_TEXT14', ''); // Constant of Professional Resume text 15
 
 // Constants definition : Modals' Content text (MC_TEXT(X))

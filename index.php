@@ -163,152 +163,45 @@ require_once('config/loaderServer.php');
             </header>
             <!-- <img src="img/maillage_lumineux.webp" class="img-fluid" alt=""> -->
             <div class="row justify-content-around my-5">
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING13"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING13"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT13"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('13')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING12"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING12"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT12"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('12')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING11"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING11"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT11"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('11')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING10"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING10"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT10"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('10')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-around my-5">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING9"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING9"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT9"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('9')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING8"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING8"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT8"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('8')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING7"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING7"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT7"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('7')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING6"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING6"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT6"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('6')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING5"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING5"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT5"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('5')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
+                <?php for ($j = 13; $j >= 10; --$j) {
+                    echo '<div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
+                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<!-- Button trigger modal -->' .
+                        '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block " data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
+                        '</div>
+                        </div>';
+                } ?>
             </div>
             <div class="row justify-content-around my-5">
-
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING4"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING4"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT4"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('4')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING3"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING3"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT3"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('3')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING2"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING2"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT2"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('2')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING1"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING1"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT1"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('1')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
-
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <h5 class="card-title text-center"><?= constant("PR_FC_HEADING0"); ?></h5>
-                        <h6 class="card-subtitle mb-2 text-muted text-center"><?= constant("PR_FC_S_HEADING0"); ?></h6>
-                        <p class="card-text text-center"><?= constant("PR_FC_TEXT0"); ?></p>
-                        <!-- Button trigger modal -->
-                        <button type="button" onclick="getModalText('0')" class="btn btn-sm btn-primary btn-block" data-toggle="modal" data-target="#modalCenter">VOIR</button>
-                    </div>
-                </div>
+                <?php for ($j = 9; $j >= 5; --$j) {
+                    echo '<div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
+                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<!-- Button trigger modal -->' .
+                        '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block justify-content-end" data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
+                        '</div>
+                        </div>';
+                }   ?>
             </div>
+            <div class="row justify-content-around my-5">
+                <?php for ($j = 4; $j >= 0; --$j) {
+                    echo '<div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                        <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
+                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<!-- Button trigger modal -->' .
+                        '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block justify-content-end" data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
+                        '</div>
+                        </div>';
+                } ?>
+            </div>
+
             <footer>
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
@@ -397,7 +290,7 @@ require_once('config/loaderServer.php');
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 
