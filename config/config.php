@@ -179,14 +179,15 @@ développement de features spécifiques pour des clients de la boutique et inter
 <br/>- Automatisation de tâches d\'intégration de données en base, création de notification par mail via des évènements CRON.
 <br/>
 <br/>- Helpdesk, aide aux bénéficiaires de nos clients ayant des difficultés pour se connecter à la plateforme.'); // Modal Content Text of Professional Position 14
-define('MC_TEXT14', 'Recueil des besoins clients pour la création de sites internet et/ou d’applications 
-spécifiques avant développement
-· Recueil des mauvais fonctionnement des développements spécifiques antérieurs clients, avant correction des bugs 
-· Pour chaque prospect EBP, recueil des besoins, étude de l’activité afin de lancer 
-la réalisation de maquettes de démo collants au plus près afin d’optimiser la 
-future utilisation des logiciels
-· Formation des clients à l’utilisation des progiciels de la gamme EBP
-· Maître de stage pour un alternant du Campus Numérique In The ALps, en Développement Web et Mobil'); // Modal Content Text of Professional Position 15
+define('MC_TEXT14', '- Recueil des besoins clients pour la création de sites internet et/ou d’applications 
+spécifiques avant développement, sécurisation de sites internet.
+<br/>- Correction de bugs sur des développements spécifiques clients antérieurs à mon arrivée, en C#.
+<br/>
+<br/>- Pour chaque prospect/client EBP, étude de l’activité afin de lancer la réalisation de maquettes de démo avant vente, afin d’optimiser le choix du progiciel EBP le plus adapté à leur entreprise.
+<br/>- Formation des clients à l’utilisation des progiciels de la gamme EBP après intégration du progiciel vendu, mise à jour des progiciels EBP.
+<br/>- Support technique sur la gamme des progiciels EBP : Comptabilité, Gestion Commerciale et Gestion Bâtiment.
+<br/>
+<br/>- Maître de stage pour 2 alternants, Campus Numérique In The ALps et O\'clock formation, en Développement Web et Mobile'); // Modal Content Text of Professional Position 15
 
 // Title for all modals
 define('MC_TITLE_ALL', 'Les missions du poste');
