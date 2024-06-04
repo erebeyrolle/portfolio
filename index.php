@@ -36,9 +36,8 @@ require_once('config/loaderServer.php');
 
     </section>
 
-    <hr class="my-5">
-
-    <main class="my-5">
+    <hr class="my-2">
+    <main class="">
         <section id="home" class="home">
             <div class="container-fluid">
                 <div class="row justify-content-between align-items-center">
@@ -156,19 +155,19 @@ require_once('config/loaderServer.php');
                 </div>
             </div>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="professionalResume" class="elements container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING1"))); ?></h1>
             </header>
             <!-- <img src="img/maillage_lumineux.webp" class="img-fluid" alt=""> -->
             <div class="row justify-content-around my-5">
-                <?php for ($j = 13; $j >= 10; --$j) {
+                <?php for ($j = 14; $j >= 10; --$j) {
                     echo '<div class="card" style="width: 18rem;">
                         <div class="card-body">
                         <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
-                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
-                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<h6 class="card-subtitle text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center my-2">' . constant("PR_FC_TEXT$j") . '</p>' .
                         '<!-- Button trigger modal -->' .
                         '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block " data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
                         '</div>
@@ -180,8 +179,8 @@ require_once('config/loaderServer.php');
                     echo '<div class="card" style="width: 18rem;">
                         <div class="card-body">
                         <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
-                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
-                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<h6 class="card-subtitle text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center my-2">' . constant("PR_FC_TEXT$j") . '</p>' .
                         '<!-- Button trigger modal -->' .
                         '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block justify-content-end" data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
                         '</div>
@@ -193,8 +192,8 @@ require_once('config/loaderServer.php');
                     echo '<div class="card" style="width: 18rem;">
                         <div class="card-body">
                         <h5 class="card-title text-center">' . constant("PR_FC_HEADING$j") . '</h5>' .
-                        '<h6 class="card-subtitle mb-2 text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
-                        '<p class="card-text text-center">' . constant("PR_FC_TEXT$j") . '</p>' .
+                        '<h6 class="card-subtitle text-muted text-center">' . constant("PR_FC_S_HEADING$j") . '</h6>' .
+                        '<p class="card-text text-center my-2">' . constant("PR_FC_TEXT$j") . '</p>' .
                         '<!-- Button trigger modal -->' .
                         '<button type="button" onclick="getModalText(' . $j . ')" class="btn btn-sm btn-primary btn-block justify-content-end" data-toggle="modal" data-target="#modalCenter">VOIR</button>' .
                         '</div>
@@ -206,7 +205,7 @@ require_once('config/loaderServer.php');
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="degrees" class="elements building container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING2"))); ?></h1>
@@ -220,7 +219,7 @@ require_once('config/loaderServer.php');
                     <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
                 </footer>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="personalProjects" class="elements building container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING3"))); ?></h1>
@@ -235,7 +234,7 @@ require_once('config/loaderServer.php');
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="dwmg1Formation" class="elements container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING4"))); ?></h1>
@@ -245,7 +244,7 @@ require_once('config/loaderServer.php');
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="dfs17Formation" class="elements container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING5"))); ?></h1>
@@ -255,7 +254,7 @@ require_once('config/loaderServer.php');
                 <button><a class="js-scrollMenu" href="#home" alt="Retour Accueil">MENU</a></button>
             </footer>
         </section>
-        <hr class="my-5">
+        <hr class="my-2">
         <section id="cdpi6Formation" class="elements container-fluid">
             <header>
                 <h1><?= mb_strtoupper(str_replace('<br/>', '', constant("H_FC_HEADING6"))); ?></h1>

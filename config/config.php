@@ -72,7 +72,7 @@ define('PR_FC_HEADING10', 'Décembre 2013 à<br/>Mars 2015'); // Constant of Pro
 define('PR_FC_HEADING11', 'Avril 2015 à Janvier 2018'); // Constant of Professional Resume 12 title 
 define('PR_FC_HEADING12', 'Juin 2019 à Juillet 2019'); // Constant of Professional Resume 13 title
 define('PR_FC_HEADING13', 'Septembre 2019 à Septembre 2021'); // Constant of Professional Resume 14 title 
-define('PR_FC_HEADING14', ''); // Constant of Professional Resume 15 title
+define('PR_FC_HEADING14', 'Février 2022 à ce jour'); // Constant of Professional Resume 15 title
 
 // Constants definition :  Professional Resume subtitle cards (PR_FC_S_HEADING(X))
 define('PR_FC_S_HEADING0', '74ème Régiment d\'Artillerie'); // Constant of Professional Resume subtitle 1
@@ -89,24 +89,24 @@ define('PR_FC_S_HEADING10', 'Entreprise Villa Tatiana SA'); // Constant of Profe
 define('PR_FC_S_HEADING11', 'Entreprise IDEX Energies SAS'); // Constant of Professional Resume subtitle 12
 define('PR_FC_S_HEADING12', 'Entreprise SIOKITA Développement'); // Constant of Professional Resume subtitle 13
 define('PR_FC_S_HEADING13', 'Entreprise Cadeaux Privés'); // Constant of Professional Resume subtitle 14
-define('PR_FC_S_HEADING14', ''); // Constant of Professional Resume subtitle 15
+define('PR_FC_S_HEADING14', 'Entreprise Solution Logique Informatique SAS'); // Constant of Professional Resume subtitle 15
 
 // Constants definition : Professional Resume text cards (PR_FC_TEXT(X))
 define('PR_FC_TEXT0', 'Service Militaire<br/>Batterie de Maintenance'); // Constant of Professional Resume text 1
-define('PR_FC_TEXT1', '<br/>Responsable d’agence prestation de service chauffage gaz'); // Constant of Professional Resume text 2
-define('PR_FC_TEXT2', '<br/>Technicien Maintenance & Automatisme'); // Constant of Professional Resume text 3
-define('PR_FC_TEXT3', '<br/>Technicien Maintenance'); // Constant of Professional Resume text 4
-define('PR_FC_TEXT4', '<br/>Technicien Automaticien d’atelier & Maintenance clientèle'); // Constant of Professional Resume text 5
-define('PR_FC_TEXT5', '<br/>Technicien Maintenance et Automatisme'); // Constant of Professional Resume text 6
-define('PR_FC_TEXT6', '<br/>Responsable Maintenance Industrielle'); // Constant of Professional Resume text 7 
-define('PR_FC_TEXT7', '<br/>Responsable Montage / Mécanicien Monteur'); // Constant of Professional Resume text 8
-define('PR_FC_TEXT8', '<br/>Gestionnaire CVC'); // Constant of Professional Resume text 9
-define('PR_FC_TEXT9', '<br/>Gestionnaire CVC-SE'); // Constant of Professional Resume text 10
-define('PR_FC_TEXT10', '<br/>Responsable Technique'); // Constant of Professional Resume text 11
-define('PR_FC_TEXT11', '<br/>Responsable d\'Exploitation en Génie Climatique (CVC)'); // Constant of Professional Resume text 12
-define('PR_FC_TEXT12', '<br/>Développeur d\'Applications Web et Mobile<!-- <br/>Stage de fin de formation -->'); // Constant of Professional Resume text 13
-define('PR_FC_TEXT13', '<br/>Chef de Projets Informatiques - Développeur Full Stack<!-- <br/>Contrat de professionnalisation en alternance -->'); // Constant of Professional Resume text 14
-define('PR_FC_TEXT14', ''); // Constant of Professional Resume text 15
+define('PR_FC_TEXT1', 'Responsable d’agence prestation de service chauffage gaz'); // Constant of Professional Resume text 2
+define('PR_FC_TEXT2', 'Technicien Maintenance & Automatisme'); // Constant of Professional Resume text 3
+define('PR_FC_TEXT3', 'Technicien Maintenance'); // Constant of Professional Resume text 4
+define('PR_FC_TEXT4', 'Technicien Automaticien d’atelier & Maintenance clientèle'); // Constant of Professional Resume text 5
+define('PR_FC_TEXT5', 'Technicien Maintenance et Automatisme'); // Constant of Professional Resume text 6
+define('PR_FC_TEXT6', 'Responsable Maintenance Industrielle'); // Constant of Professional Resume text 7 
+define('PR_FC_TEXT7', 'Responsable Montage / Mécanicien Monteur'); // Constant of Professional Resume text 8
+define('PR_FC_TEXT8', 'Gestionnaire CVC'); // Constant of Professional Resume text 9
+define('PR_FC_TEXT9', 'Gestionnaire CVC-SE'); // Constant of Professional Resume text 10
+define('PR_FC_TEXT10', 'Responsable Technique'); // Constant of Professional Resume text 11
+define('PR_FC_TEXT11', 'Responsable d\'Exploitation en Génie Climatique (CVC)'); // Constant of Professional Resume text 12
+define('PR_FC_TEXT12', 'Développeur d\'Applications Web et Mobile<!-- <br/>Stage de fin de formation -->'); // Constant of Professional Resume text 13
+define('PR_FC_TEXT13', 'Chef de Projets Informatiques - Développeur Full Stack<!-- <br/>Contrat de professionnalisation en alternance -->'); // Constant of Professional Resume text 14
+define('PR_FC_TEXT14', 'Chef de Projet Informatique - Développeur, Intégrateur, et Formateur'); // Constant of Professional Resume text 15
 
 // Constants definition : Modals' Content text (MC_TEXT(X))
 define('MC_TEXT0', '- Service Militaire obligatoire, d\'une durée de 10 mois. Affecté à la Batterie de Maintenance, comme Mécanicien Réparateur d\'automobiles, spécialité Poids Lourd,
@@ -174,12 +174,19 @@ define('MC_TEXT13', '- Mise en avant auprès de la Direction, de la nécessité 
 <br/>- Tests fonctionnels avant mise en production,
 <br/>- Gestion des coûts et des délais.
 <br/>
-<br/>- Correction de bugs majeurs sur l\'application e-commerce de l\'entreprise, réalisée en POO et écrite en PHP natif,
+<br/>- Correction de bugs majeurs sur l\'application e-commerce de l\'entreprise, réalisée en POO et écrite en PHP 5.6.40 natif,
 développement de features spécifiques pour des clients de la boutique et internes, amélioration de certaines fonctionnalités (HTML/CSS/JS/PHP/MySQL/jQuery/Bootstrap) par rétro ingénierie.
 <br/>- Automatisation de tâches d\'intégration de données en base, création de notification par mail via des évènements CRON.
 <br/>
 <br/>- Helpdesk, aide aux bénéficiaires de nos clients ayant des difficultés pour se connecter à la plateforme.'); // Modal Content Text of Professional Position 14
-define('MC_TEXT14', ''); // Modal Content Text of Professional Position 15
+define('MC_TEXT14', 'Recueil des besoins clients pour la création de sites internet et/ou d’applications 
+spécifiques avant développement
+· Recueil des mauvais fonctionnement des développements spécifiques antérieurs clients, avant correction des bugs 
+· Pour chaque prospect EBP, recueil des besoins, étude de l’activité afin de lancer 
+la réalisation de maquettes de démo collants au plus près afin d’optimiser la 
+future utilisation des logiciels
+· Formation des clients à l’utilisation des progiciels de la gamme EBP
+· Maître de stage pour un alternant du Campus Numérique In The ALps, en Développement Web et Mobil'); // Modal Content Text of Professional Position 15
 
 // Title for all modals
 define('MC_TITLE_ALL', 'Les missions du poste');
