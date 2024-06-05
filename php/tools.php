@@ -1,6 +1,5 @@
 <?php
 
-
 function clearInput($data){
     $data = trim($data);
     $data = stripslashes($data);
