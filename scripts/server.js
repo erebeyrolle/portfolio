@@ -43,7 +43,7 @@ $(document).ready(function () {
 const getModalText = (id) => {
 
     const mcText = document.querySelector('#mc-text');
-    const url = './config/config_ajax.php';
+    const url = './config/ajax_config.php';
     const options = {
         method: 'POST',
         headers: {
