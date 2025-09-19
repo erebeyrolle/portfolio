@@ -2,7 +2,7 @@
 // session_start();
 
 // Constants definition : pages tab title (PT_TITLE(X))
-define('PT_TITLE0', 'ERRE-TEC Server Home Page'); // HOME page tab title
+define('PT_TITLE0', 'ERRE-TEC Portfolio Home Page'); // HOME page tab title
 define('PT_TITLE1', ''); // ... page tab title
 define('PT_TITLE2', ''); // ... page tab title
 define('PT_TITLE3', ''); // ... page tab title
@@ -16,7 +16,7 @@ define('PT_TITLE10', ''); // ... page tab title
 define('PT_TITLE11', ''); // ... page tab title
 
 // Constants definition : pages headers title & Home front cards text (H_FC_HEADING(X))
-define('H_FC_HEADING0', 'Bienvenue sur mon serveur Web, à base d\'un Raspberry PI 3B+'); // Constant of HOME page header
+define('H_FC_HEADING0', 'Bienvenue sur mon Portfolio. <br/> Hébergé sur un serveur DIY, basé sur un Raspberry PI 3B+. <br/> Il sera bientôt remplacé par un Raspberry PI 5B+.'); // Constant of HOME page header
 define('H_FC_HEADING1', 'Mon parcours professionnel'); // Constant of page ... header & front card text
 define('H_FC_HEADING2', '- Mes diplômes <br/> - Mes certifications <br/> - Mes attestations'); // Constant of page ... header & front card text
 define('H_FC_HEADING3', 'Mes projets personnels'); // Constant of page ... header & front card text
